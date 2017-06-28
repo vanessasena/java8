@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/regex-tic-tac-toe-win-checker
+
 public class RegexTicTacToeWinChecker {
     public static boolean regexTicTacToeWinChecker(String board) {
         return board.matches("(XXX|OOO).{6}|.{6}(XXX|OOO)|.{3}(XXX|OOO).{3}"
